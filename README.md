@@ -80,13 +80,11 @@
 
   **Part B:** Write any additional *requires* for each method such that each method is constrained so that it behaves like the model queue. In other words, identify invariants on the internal state of the rotating-queue implementation that must hold for the implementation to behave according to the queue model it is implementing. 
 
-2. **(20 points)** Refine the specification and write tests for the method *ff* in class **Misc**.
+2. **(10 points)** Refine the specification and write tests for the method *ff* in class **Misc**.
 
-    **Part A:** the precondition in the `@requires` clause can be weakened, meaning that it can be less restrictive in certain situations. Write that weaker clause.
+  **Part A:** the precondition in the `@requires` clause can be weakened, meaning that it can be less restrictive in certain situations. Write that weaker clause.
 
-    **Part B:** the postcondition in the `@ensures` clause can be strengthened, meaning that it can be more restrictive in certain situations, Write that stronger clause.
-
-    **Part C:** Apply [black-box testing](https://en.wikipedia.org/wiki/Black-box_testing) to create and implement [JUnit 5](https://junit.org/junit5/) tests in the **FTests** class. Clearly document each test in the class. These tests should be based on the specification.
+  **Part B:** the postcondition in the `@ensures` clause can be strengthened, meaning that it can be more restrictive in certain situations, Write that stronger clause.
 
 3. **(50 points)** Write the specification and tests for the **WorkSchedule** class.
 
@@ -153,12 +151,7 @@
 
 # Grading Rubric
 
-| Problem | Point Value | Your Score |
-| ------- | ----------- | ---------- |
-| `Queue` specification | 30 | |
-| `ff` specification and tests | 20 | |
-| `WorkSchedule` tests | 50 | |
-| General adherence the class standards for style, names, etc. | 10 | |
+see canvas for details
 
 # Acknowledgements
 
