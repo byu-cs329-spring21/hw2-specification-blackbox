@@ -80,7 +80,7 @@
 
   **Part B:** Write any additional *requires* for each method such that each method is constrained so that it behaves like the model queue. In other words, identify invariants on the internal state of the rotating-queue implementation that must hold for the implementation to behave according to the queue model it is implementing. 
 
-2. **(10 points)** Refine the specification and write tests for the method *ff* in class **Misc**.
+2. **(10 points)** Refine the specification for the method *ff* in class **Misc**.
 
   **Part A:** the precondition in the `@requires` clause can be weakened, meaning that it can be less restrictive in certain situations. Write that weaker clause.
 
